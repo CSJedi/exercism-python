@@ -47,7 +47,7 @@ Given the key "aaaaaaaaaaaaaaaaaa", encoding the string "iamapandabear"
 would return the original "iamapandabear".
 
 Given the key "ddddddddddddddddd", encoding our string "iamapandabear"
-would return the obscured "lpdsdqgdehdu"
+would return the obscured "ldpdsdqgdehdu"
 
 In the example above, we've set a = 0 for the key value. So when the
 plaintext is added to the key, we end up with the same message coming
@@ -66,7 +66,7 @@ at least 100 characters in length, accessible via Cipher#key (the #
 syntax means instance variable)
 
 If the key submitted has capital letters or numbers, throw an
-ValueError with a message to that effect.
+ArgumentError with a message to that effect.
 
 ## Extensions
 

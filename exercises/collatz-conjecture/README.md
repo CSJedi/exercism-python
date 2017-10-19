@@ -9,24 +9,7 @@ always reach 1 eventually.
 
 Given a number n, return the number of steps required to reach 1.
 
-(Keep in mind that the Conjecture is only concerned with strictly positive
-integers, so your solution should return `None` if given 0 or a negative
-integer.)
-
 ## Examples
-
-Starting with n = 3, the steps would be as follows:
-
-0. 3
-1. 10
-2. 5
-3. 16
-4. 8
-5. 4
-6. 2
-7. 1
-
-Resulting in 7 steps. So for input n = 3, the return value would be 7.
 
 Starting with n = 12, the steps would be as follows:
 

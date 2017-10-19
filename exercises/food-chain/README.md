@@ -1,4 +1,4 @@
-# Food chain
+# Food Chain
 
 Generate the lyrics of the song 'I Know an Old Lady Who Swallowed a Fly'.
 
@@ -75,7 +75,7 @@ please see the [help page](http://exercism.io/languages/python).
 
 ## Source
 
-Inspired by the Extreme Startup game [https://github.com/rchatley/extreme_startup](https://github.com/rchatley/extreme_startup)
+Wikipedia [http://en.wikipedia.org/wiki/There_Was_an_Old_Lady_Who_Swallowed_a_Fly](http://en.wikipedia.org/wiki/There_Was_an_Old_Lady_Who_Swallowed_a_Fly)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

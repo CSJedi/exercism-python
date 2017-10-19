@@ -1,5 +1,7 @@
 # Markdown
 
+Refactor a Markdown parser.
+
 The markdown exercise is a refactoring exercise. There is code that parses a
 given string with [Markdown
 syntax](https://guides.github.com/features/mastering-markdown/) and returns the
@@ -22,9 +24,6 @@ For example, if you're submitting `bob.py` for the Bob exercise, the submit comm
 For more detailed information about running tests, code style and linting,
 please see the [help page](http://exercism.io/languages/python).
 
-## Source
-
-Syntax [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

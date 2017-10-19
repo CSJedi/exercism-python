@@ -37,10 +37,6 @@ Bob calculates
 The calculations produce the same result!  Alice and Bob now share
 secret s.
 
-## Notes
-
-Python, as of version 3.6, includes two different random modules. The module called `random` is pseudo-random, meaning it does not generate true randomness, but follows and algorithm that simulates randomness. Since random numbers are generated through a known algorithm, they are not truly random. The `random` module is not correctly suited for cryptography and should not be used, because it is pseudo-random. In version 3.6, Python introduced the `secrets` module, which generates cryptographically strong random numbers that provide the greater security required for cryptography. Since this is only an exercise, `random` is fine to use, but note that it would be very insecure if actually used for cryptography.
-
 ### Submitting Exercises
 
 Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
@@ -50,6 +46,7 @@ For example, if you're submitting `bob.py` for the Bob exercise, the submit comm
 
 For more detailed information about running tests, code style and linting,
 please see the [help page](http://exercism.io/languages/python).
+
 ## Source
 
 Wikipedia, 1024 bit key from www.cryptopp.com/wiki. [http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange](http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
