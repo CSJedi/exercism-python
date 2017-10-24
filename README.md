@@ -19,9 +19,10 @@ A list of missing exercise can be found here: http://exercism.io/languages/pytho
 
 ### Conventions
 
-- We use minimalistic stub files for all exercises (#272).
+- We use minimalistic stub files for all exercises ([#272](https://github.com/exercism/python/issues/272)).
 - We use `unittest` (Python Standard Library) and no 3rd-party-framework.
-- We use the parameter order `self.assertEqual(actual, expected)` (#440).
+- We use the parameter order `self.assertEqual(actual, expected)` ([#440](https://github.com/exercism/python/issues/440)).
+- We use `assertIs(actual, True)` and `assertIs(actual, False)` rather than `assertTrue` or `assertFalse` ([#419](https://github.com/exercism/python/pull/419)).
 
 
 ### Testing
